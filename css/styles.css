@@ -1,0 +1,168 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat-Light', sans-serif;
+    color: #8f8f8f;
+}
+
+/* navigation bar */
+.navbar {
+    /*making sapce beetweetn image, content and navbar */
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+
+/*making space beetween the navbar items */
+.nav-item {
+    padding: 0 18px;
+}
+
+/*styling the each navlink*/
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+/*   download botton  */
+.download-botton {
+    margin: 5% 3% 5% 0%;
+}
+
+
+/*features section*/
+#features {
+    padding: 7% 15%;
+    background-color: white;
+}
+
+/* image of dog*/
+#dog-image {
+    width: 60%;
+    /* for rotating the image*/
+    transform: rotate(25deg);
+    /*as equal to rotateZ(45deg)*/
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+/*this is for the hover over stage*/
+.icon:hover {
+    color: #ff4c68;
+}
+
+/*Testimonial sections*/
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    /*this is for making the round image*/
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/*press section*/
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*pricing*/
+#pricing {
+    padding: 100px;
+    text-align: center
+}
+
+.pricing-colom {
+    padding: 3% 2%;
+}
+
+/*  media query */
+/*  we can consider media query as the condition statement of the css */
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    #dog-image {
+        transform: rotate(0);
+    }
+}
+
+/*  cta section */
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*  footer section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
